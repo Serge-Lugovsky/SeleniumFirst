@@ -1,0 +1,15 @@
+{
+  "allure": {
+    "links": [
+      "https://myissuetracker.org/{issue}",
+      "https://mytestmanagementsystem.org?test={tms}"
+    ]
+  },
+  "specflow": {
+    "links": {
+      "link": "^link:(.+)",
+      "issue": "^\\d+",
+      "tms": "^tms:(\\d+)"
+    }
+  }
+}
