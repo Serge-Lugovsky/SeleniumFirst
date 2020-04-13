@@ -2,7 +2,7 @@ using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace SeleniumFirst
+namespace SeleniumFirst.utils
 {
     public static class WebDriver
     {

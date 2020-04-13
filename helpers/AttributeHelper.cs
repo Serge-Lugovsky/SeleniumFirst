@@ -1,4 +1,7 @@
-namespace SeleniumFirst
+using System.Collections.Generic;
+using SeleniumFirst.managers;
+
+namespace SeleniumFirst.helpers
 {
     public class AttributeHelper : PageManager
     {
@@ -11,6 +14,12 @@ namespace SeleniumFirst
         {
             Step("Get page header");
             return DevicesPage.GetPageHeader();
+        }        
+
+        public IList<string> GetTopMenuTabsNames()
+        {
+            Step("Get top menu tabs names");
+            return DevicesPage.GetTopMenuTabsNames();
         }
     }
 }

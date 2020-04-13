@@ -1,4 +1,4 @@
-namespace SeleniumFirst
+namespace SeleniumFirst.managers
 {
     public class SingletonAppManager
     {

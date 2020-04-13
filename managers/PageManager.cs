@@ -1,11 +1,10 @@
-
-
 using System;
 using Allure.Commons;
 using NUnit.Allure.Core;
 using OpenQA.Selenium;
+using SeleniumFirst.pages;
 
-namespace SeleniumFirst
+namespace SeleniumFirst.managers
 {
     public class PageManager
     {

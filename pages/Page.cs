@@ -1,10 +1,10 @@
 using System;
 using Allure.Commons;
 using NUnit.Allure.Core;
-using NUnit.Framework;
 using OpenQA.Selenium;
+using SeleniumFirst.managers;
 
-namespace SeleniumFirst
+namespace SeleniumFirst.pages
 {
     public class Page
     {
@@ -15,7 +15,7 @@ namespace SeleniumFirst
         protected Page(PageManager pageManager)
         {
             this._pageManager = pageManager;
-            Jse = ((IJavaScriptExecutor) Driver);
+            Jse = (IJavaScriptExecutor) Driver;
             Driver = pageManager.Driver;
 
         }

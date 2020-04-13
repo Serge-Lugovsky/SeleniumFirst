@@ -1,9 +1,7 @@
-using System;
-using Allure.Commons;
-using NUnit.Allure.Core;
 using OpenQA.Selenium;
+using SeleniumFirst.managers;
 
-namespace SeleniumFirst
+namespace SeleniumFirst.pages
 {
     public class LoginPage : Page
     {
@@ -39,6 +37,7 @@ namespace SeleniumFirst
         {
             Step("Click login", () =>
             {
+                // Jse.ExecuteScript("arguments[0].click();", LoginBtn);
                 LoginBtn.Click();
             });
             return this;

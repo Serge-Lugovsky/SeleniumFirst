@@ -1,5 +1,7 @@
 
-namespace SeleniumFirst
+using SeleniumFirst.managers;
+
+namespace SeleniumFirst.helpers
 {
     public class UserHelper : PageManager
     {

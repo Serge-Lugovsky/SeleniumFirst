@@ -1,7 +1,8 @@
 using Allure.Commons;
 using OpenQA.Selenium;
+using SeleniumFirst.managers;
 
-namespace SeleniumFirst
+namespace SeleniumFirst.utils
 {
     public static class ScreenshotListener
     {

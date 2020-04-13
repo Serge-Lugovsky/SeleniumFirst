@@ -1,9 +1,8 @@
-using System;
-using Allure.Commons;
-using NUnit.Allure.Core;
 using OpenQA.Selenium;
+using SeleniumFirst.helpers;
+using SeleniumFirst.utils;
 
-namespace SeleniumFirst
+namespace SeleniumFirst.managers
 {
     public class ApplicationManager
     {
